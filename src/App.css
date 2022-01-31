@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 .App {
   text-align: center;
 }
@@ -13,16 +15,37 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-back {
+  background-color:#9198e5;
+background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+font-family: Secular One, Verdana, Arial, sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(24, 28, 66);
 }
+
+.App-content{
+  width: 30%;
+  
+  min-width: 200px;
+  padding: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  background: linear-gradient(#ffef61af, #ffffff,#cfcfcf, #ffc8c88f);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2px);
+-webkit-backdrop-filter: blur(2.6px);
+border: 2px solid rgba(255, 255, 255, 0.28);
+}
+
+
 
 .App-link {
   color: #61dafb;

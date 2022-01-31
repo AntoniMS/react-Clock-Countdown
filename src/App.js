@@ -9,10 +9,13 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="App-header">
+    <div className="App-back">
+      <div className="App-content">
       <DigitalClock />
       <CountDown />
       <StopWatch />
+      </div>
+
     </div>
   );
 };

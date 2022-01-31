@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 
+import "./CountDown.css";
+
+
 
 const Countdown = () => {
   const [time, setTime] = useState("");
@@ -27,7 +30,8 @@ const Countdown = () => {
   }, []);
   return (
     <div className="countdown">
-      <h2>{time}</h2>
+      <div><h2>CountDown</h2></div>
+      <h3>{time}</h3>
     </div>
   );
 };
